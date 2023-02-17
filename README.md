@@ -28,7 +28,8 @@ optional arguments:
 ```
 ## Usage example 示例
 ```console
-$ trans zh-cn 文本.sh > 文本.txt
+$ trans zh-cn "文本"
+$ zsh 文本.sh > 文本.txt
 $ trans es "Hello, World!"
 ¡Hola Mundo!
 
