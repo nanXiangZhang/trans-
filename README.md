@@ -2,7 +2,7 @@
 
 Trans is a dependency-free CLI for Google Translate
 
-## Installation
+## Install 安装
 ```console
 $ git clone https://github.com/GenaTheCrocodile/trans.git
 $ cd trans
@@ -12,7 +12,7 @@ Hola
 ```
 You need to have the [Python](https://www.python.org/) interpreter installed on your system
 
-## Usage
+## Usage 用法
 
 ```console
 usage: trans [-h] [-sl SL] [-l] tl text
@@ -26,8 +26,9 @@ optional arguments:
   -sl SL            source language (auto by default)
   -l, --list-codes  list all language codes
 ```
-## Usage example
+## Usage example 示例
 ```console
+$ trans zh-cn 文本.sh > 文本.txt
 $ trans es "Hello, World!"
 ¡Hola Mundo!
 
